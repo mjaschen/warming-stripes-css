@@ -5,7 +5,7 @@ namespace Maltehuebner\WarmingStripesCss\Converter;
 use Maltehuebner\WarmingStripesCss\Converter\Image\ImageFactory;
 use Maltehuebner\WarmingStripesCss\Converter\Stripe\StripeListToStringConverter;
 
-require_once '../vendor/autoload.php';
+require_once dirname(__DIR__) . '/vendor/autoload.php';
 
 $filename = $argv[1];
 
